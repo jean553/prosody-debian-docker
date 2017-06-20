@@ -1,0 +1,7 @@
+---
+
+  - name: prosody installed
+    apt:
+      name: prosody
+      update_cache: yes
+      state: present

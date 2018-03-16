@@ -25,6 +25,8 @@ RUN pip install \
     pyparsing \
     appdirs
 
+RUN pip install cryptography==1.5 # required for Ansible 2.4
+
 # Execute ansible playbook(s).
 
 COPY provisioning/ provisioning

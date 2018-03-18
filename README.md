@@ -11,7 +11,7 @@ docker run --name prosody -p 5222:5222 -it jean553/prosody-debian-docker /bin/ba
 ## Create a new user
 
 ```
-prosodyctl useradd jean553@mydomain.com
+prosodyctl adduser jean553@mydomain.com
 ```
 
 ## Configure the server
@@ -21,6 +21,8 @@ Open /etc/prosody/prosody.cfg.lua:
 ```
 VirtualHost "mydomain.com"
 ```
+
+and enable the VirtualHost: `enabled=true`.
 
 ## Restart the service
 

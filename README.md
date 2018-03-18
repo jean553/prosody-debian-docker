@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jean553/prosody-debian-docker.svg?branch=master)](https://travis-ci.org/jean553/prosody-debian-docker)
+
 # prosody-debian-docker
 
 Simple prosody container for tests and self-learning purposes.
